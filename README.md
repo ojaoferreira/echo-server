@@ -2,8 +2,8 @@
 
 ## Objetivo
 
-Essa aplicação foi desenvolvida didaticamente afim de aprimorar o conhecimento na linguagem Go e Docker.
-O software inicia um servidor web onde aceitar qualquer requisição HTTP e retornando para o cliente o hostname, data da requisição e os headers além das variáveis de ambientes.
+Essa aplicação foi desenvolvida didaticamente afim de aprimorar o conhecimento na linguagem Go e Container.
+O software inicia um servidor web onde aceita requisição HTTP e retorna para o cliente as seguintes informações: hostname, data da requisição, headers e por fim às variáveis de ambientes. É possível obter dois tipos de retornos, sendo eles: HTML ou JSON. Por padrão as requisições retornam em HTML caso deseje um retorno em JSON basta passar a QueryString `?json=true`.
 
 ## Recursos necessários
 
